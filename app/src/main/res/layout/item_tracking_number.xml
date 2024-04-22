@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/trackingInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/cocoa"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp">
+
+        <Button
+            android:id="@+id/arrivedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="Arrived"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/notArrivedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:backgroundTint="@color/red"
+            android:text="Not Arrived"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Upload Picture Button -->
+
+</RelativeLayout>

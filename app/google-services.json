@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222843001399",
+    "project_id": "komasa-parcel-tracker",
+    "storage_bucket": "komasa-parcel-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222843001399:android:b08015cda816435d28bdb2",
+        "android_client_info": {
+          "package_name": "com.example.komasaparceltracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSdKXZAYEwXFKkslqvdIrKhyd18wa1p8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

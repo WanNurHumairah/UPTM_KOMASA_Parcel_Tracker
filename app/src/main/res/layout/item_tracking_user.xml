@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/border"
+    android:padding="16dp">
+
+    <!-- Tracking Number TextView -->
+    <TextView
+        android:id="@+id/trackingNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cocoa"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@drawable/tracking_number"/>
+
+    <!-- Timestamp TextView -->
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cocoa"
+        android:textSize="16sp"
+        android:layout_below="@id/trackingNumberTextView"
+        android:layout_alignStart="@id/timestampTextView"/>
+
+
+    <!-- Status TextView -->
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toStartOf="@id/deleteButton"
+        android:layout_centerVertical="true"/>
+
+
+    <!-- Delete ImageButton -->
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_remove_circle_24"
+        android:background="@android:color/transparent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

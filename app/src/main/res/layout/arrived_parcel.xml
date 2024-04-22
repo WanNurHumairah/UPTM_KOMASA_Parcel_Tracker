@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:backgroundTint="@color/cream"
+    android:background="@drawable/rounded_corners"
+    android:padding="16dp">
+
+    <!-- Tracking Number TextView -->
+    <TextView
+        android:id="@+id/trackingNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cocoa"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Timestamp TextView -->
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cocoa"
+        android:textSize="16sp"
+        android:layout_below="@id/trackingNumberTextView"
+        android:layout_alignStart="@id/trackingNumberTextView"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp">
+
+    <Button
+        android:id="@+id/collectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        android:text="Collected"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true"/>
+    </LinearLayout>
+
+</RelativeLayout>
